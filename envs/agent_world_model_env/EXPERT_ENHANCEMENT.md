@@ -2,6 +2,8 @@
 
 A verifier-informed, on-demand expert advisor that the agent calls as a tool during AWM tasks.
 
+**[Interactive Demo on Hugging Face](https://huggingface.co/spaces/karthik/awm-dynamic-expert)**
+
 ## Overview
 
 The dynamic expert is exposed as a callable **tool** (`ask_expert`) that the agent invokes **during** the task whenever it needs guidance. Unlike upfront advice approaches, the agent decides when to consult the expert based on real-time context — errors, partial progress, or task complexity.
